@@ -52,13 +52,13 @@ SHAP Root Cause Attribution: Ranks process variables driving the predicted devia
 Cross-Correlation Discovery: Highlights non-obvious loop interactions affecting system stability.
 
 Interactive Setpoint Nudges: Allows operators to accept or reject AI recommendations with feedback logging.
-
+```text
 Repository Structure
 ├── app.py                 # Streamlit Real-Time Dashboard
 ├── generate_data.py       # Paper Making Historian Simulator
 ├── model_engine.py        # ML Engine, SHAP Analysis & Setpoint Optimizer
 ├── requirements.txt       # Python Dependencies
 └── README.md              # Project Documentation
-
+'''
 ---
 
