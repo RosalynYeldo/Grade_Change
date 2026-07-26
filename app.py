@@ -17,11 +17,11 @@ def load_engine():
 
 engine = load_engine()
 
-st.title("🧻 GradeIntel AI: Grade Change Intelligence System")
+st.title(" GradeIntel AI: Grade Change Intelligence System")
 st.caption("Real-Time Predictive Quality & Process Stabilization for Honeywell QCS")
 
 # Sidebar Controls
-st.sidebar.header("🕹️ Live Grade Change Controller")
+st.sidebar.header(" Live Grade Change Controller")
 transition_id = st.sidebar.slider("Select Transition ID", 0, 49, 3)
 time_step = st.sidebar.slider("Time Step (Seconds into Ramp)", 0, 119, 45)
 
