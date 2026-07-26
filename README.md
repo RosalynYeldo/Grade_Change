@@ -1,4 +1,4 @@
-# 🧻 GradeIntel AI: Grade Change Intelligence System
+#  GradeIntel AI: Grade Change Intelligence System
 
 An intelligent automatic grade change system for paper making processes that predicts process deviations ($>2.5\%$ on Basis Weight) occurring during grade transitions and provides real-time, explainable setpoint recommendations.
 
@@ -34,12 +34,12 @@ Ensure you have Python 3.9+ installed. Install project dependencies:
 
 pip install -r requirements.txt
 
-2. Generate Historical Process Data
+### 2. Generate Historical Process Data
 Simulate paper making transition data from historian and QCS logs:
 
-Bash
 python generate_data.py
-3. Launch the Dashboard
+
+### 3. Launch the Dashboard
 Run the Streamlit application to launch the interactive real-time dashboard:
 
 streamlit run app.py
@@ -53,7 +53,7 @@ Cross-Correlation Discovery: Highlights non-obvious loop interactions affecting 
 
 Interactive Setpoint Nudges: Allows operators to accept or reject AI recommendations with feedback logging.
 
-📁 Repository Structure
+Repository Structure
 ├── app.py                 # Streamlit Real-Time Dashboard
 ├── generate_data.py       # Paper Making Historian Simulator
 ├── model_engine.py        # ML Engine, SHAP Analysis & Setpoint Optimizer
