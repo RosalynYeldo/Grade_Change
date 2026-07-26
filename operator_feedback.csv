@@ -1,0 +1,6 @@
+transition_id,time_step,status
+3,45,ACCEPTED
+49,119,ACCEPTED
+49,119,REJECTED
+9,6,ACCEPTED
+46,94,ACCEPTED
